@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>논문 리뷰 : 디지털 방법론과 문학 연구의 신형식주의</title>
+
+		<meta name="description" content="2022년 1학기 DH 논문 스터디 발제문">
+		<meta name="author" content="지해인">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/serif.css" id="theme">
+
+		<!-- 구글 폰트에서 폰트 가져오기 (reset.css에서 설정)  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Yuji+Syuku&display=swap" rel="stylesheet">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<a href="https://revealjs.com">
+						<img src="https://user-images.githubusercontent.com/61646760/183721290-75283a6e-4d94-4783-9a2b-80bb23e21c49.png" alt="DH" style="height: 280px; margin: 0 auto 1rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">DH 논문 리뷰 발제</h3>
+					<p>『햄릿』의 혐오감정 해석의 역사와<br />인공지능 감정 네트워크 분석</p>
+					<p>
+						<small>Written by 박소영</small>
+						<small>/ Presented by <a href="https://haechandeo.me/" target="_blank">지해인</a></small>
+					</p>
+				</section>
+
+				<section data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">목차</h3>
+					<ol class="fragment">
+						<li>저자 소개<a href="#저자">#</a></li>
+						<li>햄릿 그리고 혐오<a href="#서론">#</a></li>
+						<li>플롯 속 혐오 감정<a href="#플롯">#</a></li>
+						<li>복수 지연 논의<a href="#복수">#</a></li>
+						<li>분석 방법<a href="#방법">#</a></li>
+						<li>햄릿의 혐오 감정 네트워크<a href="#네트워크">#</a></li>
+						<li>결론<a href="#결론">#</a></li>
+						<li>비평<a href="#비평">#</a></li>
+						<li>질의응답<a href="#질의응답">#</a></li>
+					</ol>
+				</section>
+
+				<section id="저자" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">저자 소개</h3>
+						<img src="https://user-images.githubusercontent.com/61646760/183735558-a4aff5d0-5fae-4c91-9fa5-40f069a2f9e7.png" height="300">
+						<ul>
+							<li>중앙대학교 영문학 전공. 영국 근대소설 서술기법 중 하나인 자유간접화법 연구로 박사 학위 취득</li>
+							<li>중앙대 인문콘텐츠연구소 인공지능문학단 연구교수. 인공지능문학의 가능성과 한계에 대한 연구를 수행</li>
+						</ul> 
+					</section>
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">저자 약력</h3>
+						<img src="https://user-images.githubusercontent.com/61646760/183726354-2c7cfbc1-d6f0-4296-a2c0-7ab36e00db15.png" height="230">
+						<img src="https://user-images.githubusercontent.com/61646760/183730952-84f0e7d0-0185-4e3a-8bab-20f1d6aadc1a.png">
+						<ul>
+							<li>박사논문 : 자유간접화법 분석을 통한 모더니즘 소설의 서술기법 연구 - 조이스의 ｢진흙｣, 맨스필드의 ｢희열｣, 울프의 『댈러웨이 부인』을 중심으로 -</li>
+						</ul>
+					</section>
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">저자 논문</h3>
+						<img src="https://user-images.githubusercontent.com/61646760/183725588-f9c6c65d-7b87-49dd-bb58-261ae283b7b9.png" height="580px">
+					</section>					
+				</section>
+
+				<section id="초록" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">논문 초록</h3>
+					<small>인공지능은 인간의 감정을 이해하고 감지할 수 있을까?
+						이 연구는 현 단계 인공지능 기술의 발전과정에서 AI가 문학작품에 표현된 인간의 감정을 이해할 수 있을지의 가능성과,
+						인공지능 알고리듬을 인문학 연구에 활용했을 때 얻을 수 있는 가능성과 한계를 살펴보는 데 목적이 있다.
+						본 연구는 이러한 목적을 위해 윌리엄 셰익스피어의 희곡 『햄릿』을 선택하였다.
+						우선, 이 작품에 표현된 혐오감정이 주목을 받게 된 비평의 역사를 간략하게 살펴보았다.
+						그 다음 인공지능 감정 네트워크 알고리즘을 작품에 적용하여 생성된 혐오감정 네트워크를 살펴보았다.
+						결론에서는 인간 독자가 분석한 혐오의 감정과 AI가 감지한 혐오감정 네트워크를 비교하여
+						인공지능에 의한 문학작품 독서가 갖는 가능성과 한계를 비교하고 향후 연구의 방향을 간략히 언급하였다.</small>
+					<p class="fragment">➜ 셰익스피어(William Shakespeare)의 희곡
+						『햄릿』(The Tragedy of Hamlet, Prince of Denmark, 1601)에 표현된 <strong>혐오감정에 대한 기존의 비평적 맥락</strong>과
+						<strong>인공지능 감정네트워크를 통해 얻은 결과를 비교</strong>한 논문</p>
+				</section>
+				
+				<section id="서론" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">햄릿 그리고 혐오</h3>
+					<ul>
+						<li class="fragment">셰익스피어의 희곡 『햄릿』에는 햄릿의 언행을 통해
+							자기혐오, 성에 대한 혐오, 노인 혐오, 여성혐오 등 다양한 사회적 혐오가
+							생물학적인 신체적 특성 및 변화와 연결되어 표현됨(Miller 30).
+							<ul class="fragment">
+								<li>But 혐오 표현이 비평 초기부터 주목받은 것은 아님</li>
+								<li>혐오 문제는 햄릿의 복수 지연과 결부되어 주목받음</li>
+							</ul>
+						</li>
+						<li class="fragment">중대한 문제 앞에서 주저하고 고뇌를 거듭하는 햄릿
+							<ul class="fragment">
+								<li>이에 대한 감정 이론적 접근은 18C 후반에 등장</li>
+								<li>복수 지연의 원인? → 성격! → 언행 속 혐오 감정</li>
+							</ul>
+						</li>
+					</ul>	
+					<aside class="notes">
+						노트 기능 사용할 때 적는 곳
+					</aside>
+				</section>
+
+				<section id="플롯" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">플롯 속 혐오 감정</h3>
+						<ul>
+							<img src="https://user-images.githubusercontent.com/61646760/183974248-fb56ff33-0e30-48f0-9b87-b3a3e09c9f78.png" height="580px">
+						</ul>
+					</section>
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">인물 관계 도식</h3>
+						<img src="https://user-images.githubusercontent.com/61646760/183977545-5ac77be2-d8f1-4031-bf25-a7d2af1fde0a.png" height="450px">
+						<p>출처 : <a href="https://m.blog.naver.com/soboro_bang/222078518037">네이버 블로그</a></p>
+					</section>
+				</section>
+
+				<section id="복수" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">복수 지연 논의</h3>
+							<ul>
+								<li class="fragment">“바로 복수하면 극이 끝나므로”(Hanmer, 1736)</li>
+								<ul class="fragment">
+									<li>복수 지연에 대해 처음으로 주목한 사례<br />
+									<span class="fragment">➜ 외적 요인이 아닌 내적 요인에 따른 설명은?</span></li>
+								</ul>
+								<li class="fragment">“햄릿이 양심적이고 도덕적이어서”(Johnson 242)</li>
+								<ul class="fragment">
+									<li>18세기 중반 이후 신고전주의 시대의 비평</li>
+									<li>복수 지연 문제에 대한 지속적 영향력 행사</li>
+								</ul>
+								<li class="fragment">“섬세한 감수성 때문에”(Goethe 374)</li>
+								<ul class="fragment">
+									<li>19세기 전후 낭만주의 시대의 비평</li>
+									<li>“고도로 지적인 성격 때문”(Schlegel), “지적 활동의 결과로 실제 행동 <strong>혐오</strong>”(Coleridge)</li>
+									<li>즉, 햄릿은 행동이 결여된, 마비된 지식인의 전형</li>
+								</ul>
+							</ul>
+					</section>
+					<section>
+						<ul>
+							<li>“우울증으로 인한 무기력과 무관심”(Bradley)</li>
+							<ul class="fragment">
+								<li>햄릿이 아주 도덕적 인물이라기엔 텍스트에서 조롱, 혐오 등을 일삼는 햄릿을 살펴볼 수 있음</li>
+								<li>우울증으로 인한 지체로 보아야 함</li>
+							</ul>
+							<li class="fragment">“클로디우스가 햄릿의 오이디푸스 콤플렉스를 해소해 줘서”(Freud, 321-333)</li>
+							<ul class="fragment">
+								<li>복수를 촉구하는 혐오감과 양심의 가책이 전도됨</li>
+							</ul>
+							<li class="fragment">“객관적 상관물의 결핍으로 인한 작품의 예술적 실패”(Eliot, 3-4)</li>
+							<ul class="fragment">
+								<li>작품에서 묘사된 상황을 초과하는 주인공의 고뇌</li>
+							</ul>
+							<li class="fragment">“파레시아(parrhesia)의 실패가 초래한 심리적 억압”(하재홍⋅박미경, 50-51)</li>
+							<ul class="fragment">
+								<li>진실을 말하지 못하고 혐오의 덫에 갇힘</li>
+							</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section id="방법" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">분석 방법</h3>
+							<ul>
+								<li class="fragment">데이터셋</li>
+								<img class="fragment" src="https://user-images.githubusercontent.com/61646760/183991301-cc9d8610-afb6-4562-94fd-9a001d70bb4d.png" height="200px">
+								<ul class="fragment">
+									<li>Wikisource(위키문헌)의 텍스트를 "?", "!", "."를 기준으로 나누어 막(Act), 장(Scene)에 따른 ID 부여</li>
+									<li>R의 <a href="https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html" target="_blank">syuzhet</a>
+										패키지를 활용해 감정 분석 수행<br />
+										<span class="fragment">➜ <a href="https://commons.wikimedia.org/wiki/File:Plutchik-wheel.svg" target="_blank">플루칙의 감정 바퀴(Plutchik's Wheel of Emotions)</a>를 쓴 <a href="http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm" target="_blank">EmoLex</a>를 기반 감정 사전으로 사용</li></span>
+								</ul>
+							</ul>
+					</section>
+					<section>
+						<ul>
+							<li>문장별 감정 수치를 발화자별, 막(scene)별, 장(act)별로 구분하여 통계 분석 수행</li>
+							<ul class="fragment">
+								<li>결과는 R의 <a href="https://cran.r-project.org/web/packages/doBy/index.html" target="_blank">doBy</a> 패키지를 써서 시각화</li>
+								<li>발화자에 해당하는 DT 컬럼을 발화자(Source)와 피발화자(Target)으로 구분하여 발화자-피발화자 네트워크로 적용할 수 있게끔 처리</li>
+								<img src="https://user-images.githubusercontent.com/61646760/183996579-68e7e3ca-92bc-4fd1-96a3-d6b2bffeced0.png">
+							</ul>
+							<li class="fragment">이를 토대로 Gephi를 활용, 감정 네트워크 시각화 수행</li>
+							<li>발표문 “인물 간 감정 네트워크 분석을 통해 살펴본 햄릿의 혐오감정 연구”(2018) 인용</li>
+						</ul>
+					</section>
+				</section>
+
+				<section id="네트워크" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">햄릿의 혐오 감정 네트워크</h3>
+						<img class="fragment" src="https://user-images.githubusercontent.com/61646760/184000295-c53a209e-4ffd-4326-9037-38ef48b31141.png" height="420px">
+						<ul>
+							<li class="fragment">주요 인물들을 중심으로 네트워크 형성<br />
+								<span class="fragment">➜ 적대적이지 않은 인물 간 혐오 감정의 네트워크??</span></li>
+						</ul>
+					</section>
+					<section>
+						<img src="https://user-images.githubusercontent.com/61646760/184002844-d0370088-8f1a-4ec4-9af6-bfc0bce9a7b6.png" height="400px">
+						<ul>
+							<li class="fragment">혐오 감정 어휘의 빈도 수를 나타낸 것일 뿐</li>
+							<ul class="fragment">
+								<li>신뢰의 대상에게 자유로운 감정 표출이 가능함<br />
+								<span class="fragment">➜ 친우인 호레이쇼와의 대화에서 혐오가 두드러지는 것은 이 때문</span></li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Act 단위 혐오 감정 네트워크</h3>
+						<img class="fragment" src="https://user-images.githubusercontent.com/61646760/184004213-1fe147cf-45ad-4265-9048-6a217619136a.png" height="400px">
+						<ul>
+							<li class="fragment">1막의 두드러진 혐오 감정</li>
+							<ul class="fragment">
+								<li>햄릿 독백, 호레이쇼-햄릿 대화, 마르셀루스-햄릿 대화</li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<img class="fragment" src="https://user-images.githubusercontent.com/61646760/184005754-9ed4ce6a-aa38-4a15-be66-dfd5b3a9e1a5.png" height="400px">
+						<ul>
+							<li class="fragment">2막의 두드러진 혐오 감정</li>
+							<ul class="fragment">
+								<li>폴로니우스-햄릿 대화, 햄릿 독백<br />
+								<span class="fragment">➜ 노인혐오, 여성혐오, 자기혐오 등</span></li>
+							</ul>
+						</ul>		
+					</section>
+					<section>
+						<img class="fragment" src="https://user-images.githubusercontent.com/61646760/184005940-b41ffe3b-902e-4262-a90c-10cdb3b30bfa.png" height="400px">
+						<ul>
+							<li class="fragment">3막의 두드러진 혐오 감정</li>
+							<ul class="fragment">
+								<li>오필리어-햄릿 대화, 거트루드-햄릿 대화, 햄릿 독백, 클로디우스 독백<br />
+								<span class="fragment">➜ 여성 혐오, 성적 관계 혐오 등</span></li>
+							</ul>
+						</ul>		
+					</section>
+					<section>
+						<img class="fragment" src="https://user-images.githubusercontent.com/61646760/184006508-31a90ec2-df64-451f-9b55-62ee9e31f57e.png" height="400px">
+						<ul>
+							<li class="fragment">4막의 두드러진 혐오 감정</li>
+							<ul class="fragment">
+								<li>클로디우스-레어티즈 대화<br />
+								<span class="fragment">➜ 서로에 대한 혐오가 아닌, 햄릿에 대한 혐오</span></li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<img class="fragment" src="https://user-images.githubusercontent.com/61646760/184006813-45479188-669b-46e3-990e-f581d6302bc9.png" height="400px">
+						<ul>
+							<li class="fragment">5막의 두드러진 혐오 감정</li>
+							<ul class="fragment">
+								<li>햄릿-첫 번째 광대 대화, 햄릿-오스릭 대화, 레어티즈 독백<br />
+								<span class="fragment">➜ 삶과 죽음의 문제와 관련한 혐오</span></li>
+							</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section id="결론" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">결론</h3>
+							<ul class="fragment">
+								<li>혐오 어휘 빈도를 통한 혐오 감정 포착 가능</li>
+								<li>어휘 빈도일 뿐, 의식 지향성의 문제는 미포함</li>
+								<li>해당 문제에 대한 방법론적 보완이 필요함</li>
+							</ul>
+					</section>
+				</section>
+
+				<section id="비평" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<h3 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">비평</h2>
+					<ul class="fragment">
+						<li>소스코드 확인 불가</li>
+						<li>gephi 시각화 다소 부적절</li>
+						<li>선행 연구와 잘 맞물리지 않는 느낌</li>
+						<ul>
+							<li>'혐오' 용어의 일상적 용법과의 혼재?</li>
+						</ul>
+						<li>인문학적으로 유의미한, 새로운 해석 부재</li>
+					</ul>
+				</section>
+
+				<!-- <section id="pdf" data-transition="fade">
+					<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">PDF로 다운받기</h2>
+					<iframe src="//www.slideshare.net/slideshow/embed_code/key/JL97kjWKxvzn1L" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+				</section> -->
+
+				<section id="질의응답" data-transition="slide" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<h1 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">질의응답</h1>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
